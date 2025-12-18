@@ -9,8 +9,8 @@ vessel = conn.space_center.active_vessel
 # Целевые параметры орбиты
 target_orbit = 102_000
 
-altitude_start = 1000 # Начало гравитационного разворота
-target_altitude = 45000 # Конец гравитационного разворота
+altitude_start = 1_000 # Начало гравитационного разворота
+target_altitude = 28_000 # Конец гравитационного разворота
 
 #Потоки данных телеметрии
 altitude = conn.add_stream(getattr, vessel.flight(), 'mean_altitude')
