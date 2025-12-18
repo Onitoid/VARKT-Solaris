@@ -10,4 +10,5 @@
 ![photo_5339423452160528687_y](https://github.com/user-attachments/assets/ea1366af-0f92-4868-94ab-99b81a5ce2ed)
 ![photo_5339423452160528691_y](https://github.com/user-attachments/assets/deb82ecc-e85f-4096-bf22-c520a2b90ba1)
 ## Программа для автопилота написана на языке Python, с использованием библиотеки kRPC  
-## Ссылка на видеоотчет на YouTube  
+## Ссылка на видеоотчет на YouTube 
+https://youtu.be/cRPXGz6ezwk
