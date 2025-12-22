@@ -73,7 +73,10 @@ while t <= t_max:
         a = 0.0
     
     # Интегрирование (метод Эйлера)
-    v += a * dt
+    if t > 207:
+        pass
+    else:
+        v += a * dt
     h += v * dt
     m -= mdot * dt
     
@@ -186,3 +189,4 @@ plt.show()
 interp_speed = interp1d(model_times, model_speeds, kind='linear', fill_value="extrapolate")
 interp_height = interp1d(model_times, model_heights, kind='linear', fill_value="extrapolate")
 interp_delta_v = interp1d(model_times, model_delta_vs, kind='linear', fill_value="extrapolate")
+
